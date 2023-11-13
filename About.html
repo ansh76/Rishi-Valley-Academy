@@ -1,20 +1,64 @@
-<!DOCTYPE html>
+
+    
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rihi Valley International Academy</title>
+  
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <link rel="stylesheet" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Poppins:ital,wght@0,300;0,500;0,600;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="School.css">
     <link rel="stylesheet" href="Responsive.css">
+  
 </head>
 <body>
-    
+  
+    <section class="sub-header">
+              <nav>
+                <a href="School.html"><img src="logo-2.png" alt=""></a>
+                <div class="nav-links" id="navlinks">
+                  <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                      <li><a href="School.html">Home</a></li>
+                      <li><a href="About.html">About</a></li>
+                      <li><a href="massage.html">Management</a></li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+              </nav>
+              <h1>ABOUT US</h1>
+    </section>
+
+  <!-- -------------about us content----------- -->
+
+
+<section class="about-us">
+  <div class="row">
+    <div class="about-col">
+      <h1>HISTORICAL OVERVIEW</h1>
+      <h3>AIM</h3>
+      <p>Rishi Valley is determined to provide quality education with economic and affordable fee structure. Emphasis has been made on practical education facilitated by organizing and celebrating various special days, festival, picnic, puppet shows etc. Rishi Valley provides a sage and nurturing environment to each bud to bloom into bright and attractive flower. We prepare student for their bright future.
+      <br>
+        <a href=""  class="Visit-button red-btn" >EXPLORE NOW</a>
+      </div>
+    <div class="about-col">
+      <img src="LAb.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+
+
+
+
     <section class="About">
-        <h1>About Us</h1>
+        <h1>FACILITIES</h1>
   
    <div class="row">
        <div class="About-col">
@@ -52,6 +96,34 @@
               </div>       
    </div>
       </section>
-  
+<!--   
+      <section class="footer">
+        <h4>AIM</h4>
+        <p>Rishi Valley is determined to provide quality education with economic and affordable fee structure. Emphasis has been made on practical education facilitated by organizing and celebrating various special days, festival, picnic, puppet shows etc. Rishi Valley provides a sage and nurturing environment to each bud to bloom into bright and attractive flower. We prepare student for their bright future.
+         
+        </p>
+      </section> -->
+      <section class="footer">
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      
+      
+      <p>Made with  <i class="fa fa-heart-o"></i>Ansh Sharma</p>
+    </section>
+           <!-- Javascript  -->
+          <script>
+            var navlinks = document.getElementById("navlinks");
+            function showmenu(){
+              navlinks.style.right = "0";
+            }
+            function hidemenu(){
+              navlinks.style.right = "-200px";
+            }
+          </script>
+
 </body>
 </html>
